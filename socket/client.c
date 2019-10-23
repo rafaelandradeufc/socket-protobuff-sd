@@ -82,7 +82,7 @@ void *iniciar(void *arg)
         case 3:
 
             system("clear");
-            strcpy(pessoa, "buscar@@");
+            strcpy(pessoa, "excluir@@");
             printf("\nDigite o CPF:");
             scanf("%s", aux);
             strcat(pessoa, aux);
